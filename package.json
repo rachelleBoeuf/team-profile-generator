@@ -1,0 +1,28 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachelleBoeuf/team-profile-generator.git"
+  },
+  "author": "Rachel LeBoeuf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rachelleBoeuf/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/rachelleBoeuf/team-profile-generator#readme",
+  "dependencies": {
+    "cache": "^2.3.1",
+    "config": "^3.3.7",
+    "inquirer": "^8.2.2",
+    "local": "^0.1.0",
+    "npmrc": "^1.1.1",
+    "pack": "^2.2.0",
+    "underscore": "^1.13.2"
+  }
+}
