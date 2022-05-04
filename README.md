@@ -6,6 +6,7 @@ Application should be a Node.js command-line application that takes in informati
 npm init -y, npm install, npm start
 
 ## Usage
+![Untitled_ May 4, 2022 10_30 AM](https://user-images.githubusercontent.com/97478725/166703711-65bbfc7d-4238-403b-a30a-974d1dcbebed.gif)
 
 ## Contributions
 Please reference contact information listed below.
