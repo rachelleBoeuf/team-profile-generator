@@ -1,23 +1,13 @@
 const Intern = require('../lib/Intern');
+
 describe('Intern', () => {
-    test('testing for correct name', () => {
-        var testing = new Intern('nameHere', 5, "emailHere", "gitHubUsername")
-        expect(testing.getName()).toBe('nameHere')
-    })
-    test('testing for correct id', () => {
-        var testing = new Intern('nameHere', 5, 'emailHere', "gitHubUsername")
-        expect(testing.getId()).toBe(5)
-    })
-    test('testing for correct email', () => {
-        var testing = new Intern('nameHere', 5, 'emailHere', "gitHubUsername")
-        expect(testing.getEmail()).toBe('emailHere')
-    })
-    test('testing for correct get School', () => {
-        var testing = new Intern('nameHere', 5, 'emailHere', "get School")
-        expect(testing.getSchool()).toBe('get School')
-    })
-    test('testing for correct Role', () => {
-        var testing = new Intern('nameHere', 5, 'emailHere', "get School")
-        expect(testing.getRole()).toBe('Intern')
-    })
+    it('should return data the model was contructed with!', () => {
+        let intern = new Intern('Edwin', '003', 'edwin@email.com', 'UNLV');
+
+        expect(intern.getId()).toBe('003');
+        expect(intern.getName()).toBe('Edwin');
+        expect(intern.getEmail()).toBe('edwin@email.com');
+        expect(intern.getSchool()).toBe('UNLV');
+        expect(intern.getRole()).toBe('Intern');
+    });
 });
