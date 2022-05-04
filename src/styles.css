@@ -1,0 +1,15 @@
+header {
+    padding: 10px;
+    background-color: #e93c3c9e;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    border: 1px solid bottom;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
