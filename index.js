@@ -9,8 +9,8 @@ var manager;
 var engineers = [];
 var interns = [];
 
-loadSeedData();
-//showAddManager();
+//loadSeedData();
+showAddManager();
 
 function showAddManager() {
   inquirer
