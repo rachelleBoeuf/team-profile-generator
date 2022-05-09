@@ -218,8 +218,8 @@ function generateHTML() {
 
 function loadSeedData() {
   manager = new Manager('Rachel', '001', 'rachel@email.com', 'DEN01');
-  engineers.push(new Engineer('Amber', '002', 'amber@email.com', 'edinhurem'));
-  engineers.push(new Engineer('Edin', '003', 'edin@email.com', 'edinhurem'));
-  interns.push(new Intern('Samual', '004', 'samdaman@email.com', 'UNLV'));
+  engineers.push(new Engineer('Lala', '002', 'lala@email.com', 'lala'));
+  engineers.push(new Engineer('Rob', '003', 'rob@email.com', 'rob'));
+  interns.push(new Intern('Saul', '004', 'saul@email.com', 'UNLV'));
   generateHTML();
 }
